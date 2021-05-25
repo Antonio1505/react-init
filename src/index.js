@@ -7,7 +7,7 @@ import {Profile}  from './Profile';
 import Header from '../src/component/header';
 import Footer from '../src/component/footer';
 import BonDE from './bonDE';
-import Accueil from './Accueil';
+import App from './App';
 
 
 function Index(){
@@ -17,7 +17,7 @@ function Index(){
       <div className="index">
         <Header />
       
-        <Route exact path="/" component={Accueil}/>
+        <Route exact path="/" component={App}/>
         <Route exact path="/BonDE" component={BonDE}/>
         <Route exact path="/Profile" component = {Profile} />
 
