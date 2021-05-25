@@ -22,7 +22,7 @@ export const Profile = () => {
         style={{width: (10 + offset * 0.3) + '%'}}
         />
         <img src={img2} alt="" id="img2" 
-        style={{width: (10 + offset * 0.3) + '%'}}
+        style={{width: (100 + offset * 0.3) + '%'}}
         />
         <img src={text} alt="" id="text"
          style={{top: `-${10 + offset * 0.3 + '%'}`}}
